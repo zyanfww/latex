@@ -2,3 +2,6 @@
 *.fls
 *.aux
 *.fdb_latexmk
+*.synctex.gz
+lmao/
+.vscode/
