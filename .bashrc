@@ -167,7 +167,7 @@ export PATH=/usr/local/texlive/2026/bin/x86_64-linux:$PATH
 
 x() {
 
-    if xvfb-run manimgl test.py -sw -r 1080x1080; then
+    if xvfb-run manimgl test.py -sw -r 1080x1350; then
         clear
     fi
 
