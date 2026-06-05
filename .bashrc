@@ -161,9 +161,13 @@ if [[ "$TERM" == "xterm" ]]; then
 fi
 
 
+export MANPATH=/usr/local/texlive/2026/texmf-dist/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2026/texmf-dist/doc/info:$INFOPATH
+export PATH=/usr/local/texlive/2026/bin/x86_64-linux:$PATH
+
 x() {
 
-    if xvfb-run manimgl test.py -sw -r 1080x1080 -c "#141414"; then
+    if xvfb-run manimgl test.py -sw -r 1080x1080; then
         clear
     fi
 
@@ -172,7 +176,4 @@ x() {
 xx() {
 
     python3 -m http.server
-
 }
-
-
