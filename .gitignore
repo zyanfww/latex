@@ -4,4 +4,5 @@
 *.fdb_latexmk
 *.synctex.gz
 lmao/
-.vscode/
+__pycache__/
+latex_cache/
