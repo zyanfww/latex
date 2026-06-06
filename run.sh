@@ -1,1 +1,1 @@
-git clone https://github.com/mathsvisualization/ManimGL-Project.git
+xvfb-run manimgl test.py -sw -r 2160x2700

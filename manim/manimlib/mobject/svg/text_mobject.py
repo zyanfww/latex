@@ -136,7 +136,7 @@ class MarkupText(StringMobject):
     def __init__(
         self,
         text: str,
-        font_size: int = 48,
+        font_size: int = 49,
         height: float | None = None,
         justify: bool = False,
         indent: float = 0,
